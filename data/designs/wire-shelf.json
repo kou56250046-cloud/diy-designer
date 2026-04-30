@@ -1,0 +1,193 @@
+{
+  "id": "wire-shelf",
+  "title": "ワイヤーネット折り畳み棚",
+  "description": "ダイソーのワイヤーネットと連結ジョイントで作る、使わないときは平らに折り畳める収納棚。工具はドライバー不要、結束バンドだけで組める。",
+  "difficulty": "初級",
+  "estimatedTime": "20分",
+  "totalCost": 660,
+  "createdAt": "2026-04-30T00:00:00.000Z",
+  "parts": [
+    {
+      "id": "wire-net-large",
+      "name": "ワイヤーネット（大）",
+      "store": "ダイソー",
+      "price": 110,
+      "quantity": 2,
+      "description": "29×29cm のスチール製ワイヤーネット。棚の側面・背面に使用。",
+      "dimensions": { "width": 290, "height": 290, "depth": 5 },
+      "color": "#B0BEC5"
+    },
+    {
+      "id": "wire-net-small",
+      "name": "ワイヤーネット（小）",
+      "store": "ダイソー",
+      "price": 110,
+      "quantity": 2,
+      "description": "21×29cm のスチール製ワイヤーネット。棚の天面・底面に使用。",
+      "dimensions": { "width": 210, "height": 290, "depth": 5 },
+      "color": "#B0BEC5"
+    },
+    {
+      "id": "zip-tie",
+      "name": "結束バンド（インシュロック）",
+      "store": "ダイソー",
+      "price": 110,
+      "quantity": 1,
+      "description": "幅2.5mm × 長さ100mm 程度のもの。ネット同士の接続に使用。約20本使用。",
+      "dimensions": { "width": 100, "height": 3, "depth": 3 },
+      "color": "#ECEFF1"
+    },
+    {
+      "id": "joint-connector",
+      "name": "ワイヤーネット用コーナージョイント",
+      "store": "ダイソー",
+      "price": 110,
+      "quantity": 1,
+      "description": "ネットを90度・直角に固定するプラスチック製コネクタ。4個入り。折り畳みのヒンジとして活用。",
+      "dimensions": { "width": 30, "height": 30, "depth": 15 },
+      "color": "#78909C"
+    },
+    {
+      "id": "rubber-feet",
+      "name": "ゴム脚（滑り止め）",
+      "store": "セリア",
+      "price": 110,
+      "quantity": 1,
+      "description": "直径15mm程度のゴム製滑り止め。底面4隅に貼り付けて安定させる。",
+      "dimensions": { "width": 15, "height": 15, "depth": 5 },
+      "color": "#37474F"
+    },
+    {
+      "id": "velcro",
+      "name": "マジックテープ（面ファスナー）",
+      "store": "セリア",
+      "price": 110,
+      "quantity": 1,
+      "description": "折り畳んだ状態をキープするためのロック用。幅2cm × 10cm 程度。",
+      "dimensions": { "width": 100, "height": 20, "depth": 3 },
+      "color": "#5C6BC0"
+    }
+  ],
+  "assembly": [
+    {
+      "step": 1,
+      "title": "底面を作る",
+      "description": "ワイヤーネット（小）を底面として置き、4隅にゴム脚を貼り付けます。剥離紙を剥がして押し付けるだけでOKです。",
+      "highlightPartIds": ["wire-net-small", "rubber-feet"],
+      "tip": "ゴム脚は底面のネットの四隅のマス目にしっかり密着させると安定します。"
+    },
+    {
+      "step": 2,
+      "title": "側面を立てる",
+      "description": "ワイヤーネット（大）2枚を底面の左右に立てます。コーナージョイントを使って底面と側面を90度で固定します。ジョイントのクリップをネットの縦・横のワイヤーに引っ掛けて留めます。",
+      "highlightPartIds": ["wire-net-large", "joint-connector"],
+      "tip": "ジョイントは上下に2か所ずつ付けると強度が増します。"
+    },
+    {
+      "step": 3,
+      "title": "天面を結束バンドで固定",
+      "description": "ワイヤーネット（小）を天面として左右の側面の上端に結束バンドで固定します。バンドをネットのワイヤーに通してしっかり引き締め、余長を爪切りでカットします。",
+      "highlightPartIds": ["wire-net-small", "wire-net-large", "zip-tie"],
+      "tip": "バンドを締めすぎてもネットが歪まないよう、仮止め → 全体確認 → 本締め の順で進めましょう。"
+    },
+    {
+      "step": 4,
+      "title": "折り畳みロックを取り付ける",
+      "description": "マジックテープを切ってフックとループに分け、側面ネットと底面ネットの外側に貼り付けます。折り畳んだ状態でテープが合わさるよう位置を調整してください。",
+      "highlightPartIds": ["velcro"],
+      "tip": "テープを貼る前に折り畳んでみて位置を鉛筆でマークすると合わせやすいです。"
+    },
+    {
+      "step": 5,
+      "title": "完成・動作確認",
+      "description": "棚を開いた状態で軽く揺すって各ジョイントが外れないか確認します。折り畳んでマジックテープでロックし、コンパクトになることを確認してください。",
+      "highlightPartIds": ["wire-net-large", "wire-net-small", "joint-connector", "velcro"]
+    }
+  ],
+  "diagram2d": {
+    "viewWidth": 400,
+    "viewHeight": 350,
+    "parts": [
+      {
+        "partId": "wire-net-small",
+        "x": 55,
+        "y": 260,
+        "width": 210,
+        "height": 40,
+        "label": "底面（小ネット）"
+      },
+      {
+        "partId": "wire-net-large",
+        "x": 15,
+        "y": 20,
+        "width": 40,
+        "height": 240,
+        "label": "左側面"
+      },
+      {
+        "partId": "wire-net-large",
+        "x": 265,
+        "y": 20,
+        "width": 40,
+        "height": 240,
+        "label": "右側面"
+      },
+      {
+        "partId": "wire-net-small",
+        "x": 55,
+        "y": 20,
+        "width": 210,
+        "height": 40,
+        "label": "天面（小ネット）"
+      },
+      {
+        "partId": "joint-connector",
+        "x": 55,
+        "y": 235,
+        "width": 30,
+        "height": 30,
+        "label": "コーナージョイント"
+      },
+      {
+        "partId": "joint-connector",
+        "x": 235,
+        "y": 235,
+        "width": 30,
+        "height": 30,
+        "label": "コーナージョイント"
+      }
+    ]
+  },
+  "model3d": {
+    "parts": [
+      {
+        "partId": "wire-net-small",
+        "position": [0, -1.4, 0],
+        "rotation": [0, 0, 0],
+        "dimensions": [2.1, 0.05, 2.9],
+        "color": "#B0BEC5"
+      },
+      {
+        "partId": "wire-net-small",
+        "position": [0, 1.4, 0],
+        "rotation": [0, 0, 0],
+        "dimensions": [2.1, 0.05, 2.9],
+        "color": "#B0BEC5"
+      },
+      {
+        "partId": "wire-net-large",
+        "position": [-1.15, 0, 0],
+        "rotation": [0, 0, 0],
+        "dimensions": [0.05, 2.9, 2.9],
+        "color": "#90A4AE"
+      },
+      {
+        "partId": "wire-net-large",
+        "position": [1.15, 0, 0],
+        "rotation": [0, 0, 0],
+        "dimensions": [0.05, 2.9, 2.9],
+        "color": "#90A4AE"
+      }
+    ]
+  }
+}
